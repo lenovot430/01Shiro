@@ -12,6 +12,7 @@ public class Tester {
 			for(int j=5;j>i;j--) {
 				//Test is commit remote
 				//local
+				//Test is commit remote
 				System.out.print("*");	
 			}
 			System.out.println();	
