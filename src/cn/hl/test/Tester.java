@@ -10,6 +10,7 @@ public class Tester {
 	public void test() {
 		for(int i=0;i<5;i++) {
 			for(int j=5;j>i;j--) {
+				//æµ‹è¯•pull
 				System.out.print("*");	
 			}
 			System.out.println();	
@@ -30,7 +31,7 @@ public class Tester {
 		int sort[] =new int[10];
 		int temp;
 		
-		System.out.println("ÇëÊäÈëÊ®¸öÅÅĞòµÄÊı¾İ£º");
+		System.out.println("è¯·è¾“å…¥åä¸ªæ’åºçš„æ•°æ®ï¼š");
 		
 		for(int i=0;i<sort.length;i++) {
 			sort[i]=input.nextInt();
@@ -44,7 +45,7 @@ public class Tester {
 				}
 			}
 		}
-		System.out.println("ÅÅĞòºóµÄÑ¡Ïî£º");
+		System.out.println("æ’åºåçš„é€‰é¡¹ï¼š");
 		
 		for(int i=0;i<sort.length;i++) {
 			System.out.println(sort[i]+"");
