@@ -10,7 +10,7 @@ public class Tester {
 	public void test() {
 		for(int i=0;i<5;i++) {
 			for(int j=5;j>i;j--) {
-				//测试pull
+				//this is view
 				System.out.print("*");	
 			}
 			System.out.println();	
@@ -31,7 +31,7 @@ public class Tester {
 		int sort[] =new int[10];
 		int temp;
 		
-		System.out.println("请输入十个排序的数据：");
+		System.out.println("璇疯緭鍏ュ崄涓帓搴忕殑鏁版嵁锛�");
 		
 		for(int i=0;i<sort.length;i++) {
 			sort[i]=input.nextInt();
@@ -45,7 +45,7 @@ public class Tester {
 				}
 			}
 		}
-		System.out.println("排序后的选项：");
+		System.out.println("鎺掑簭鍚庣殑閫夐」锛�");
 		
 		for(int i=0;i<sort.length;i++) {
 			System.out.println(sort[i]+"");
