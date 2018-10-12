@@ -10,7 +10,7 @@ public class Tester {
 	public void test() {
 		for(int i=0;i<5;i++) {
 			for(int j=5;j>i;j--) {
-				//this is view
+				//Test is commit
 				System.out.print("*");	
 			}
 			System.out.println();	
