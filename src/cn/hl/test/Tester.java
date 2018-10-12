@@ -10,7 +10,8 @@ public class Tester {
 	public void test() {
 		for(int i=0;i<5;i++) {
 			for(int j=5;j>i;j--) {
-				//Test is commit
+				//Test is commit 
+				//local
 				System.out.print("*");	
 			}
 			System.out.println();	
